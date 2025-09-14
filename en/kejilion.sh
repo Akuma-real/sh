@@ -1185,7 +1185,7 @@ iptables_panel() {
 
 			  5)
 				  # IP whitelist
-				  read -e -p "Please enter the IP or IP segment to be released:" o_ip
+				  read -e -p "Please enter the IP or IP segment to release:" o_ip
 				  allow_ip $o_ip
 				  ;;
 			  6)
@@ -1556,7 +1556,7 @@ fi
 
 add_yuming() {
 	  ip_address
-	  echo -e "First resolve the domain name to the local IP:${gl_huang}$ipv4_address  $ipv6_address${gl_bai}"
+	  echo -e "First resolve the domain name to the native IP:${gl_huang}$ipv4_address  $ipv6_address${gl_bai}"
 	  read -e -p "Please enter your IP or the resolved domain name:" yuming
 }
 
